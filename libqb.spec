@@ -1,6 +1,6 @@
 
-%define version	0.7.0
-%define release	1.13
+%define version	0.8.1
+%define release	1.14
 %define develname %mklibname -d qb
 %define name	%mklibname qb
 
@@ -12,7 +12,7 @@ Summary:        An IPC library for high performance servers
 Group:          System/Libraries
 License:        LGPLv2+
 URL:            http://www.libqb.org
-Source0:        https://fedorahosted.org/releases/q/u/quarterback/libqb-0.7.0.tar.gz
+Source0:        https://fedorahosted.org/releases/q/u/quarterback/libqb-0.8.1.tar.gz
 
 BuildRequires:  autoconf automake libtool doxygen procps check-devel
 
