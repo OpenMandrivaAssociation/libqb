@@ -64,3 +64,19 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(-,root,root,-)
 %doc COPYING
 %{_libdir}/libqb.so.*
+
+
+%changelog
+* Thu Feb 09 2012 Anton Kirilenko <anton.kirilenko@rosalab.ru> 0.10.0-0
++ Revision: 772333
+- new upstream version
+
+* Wed Jan 11 2012 Anton Kirilenko <anton.kirilenko@rosalab.ru> 0.8.1-1.14
++ Revision: 759702
+- New upstream release: updated to 0.8.1
+
+* Wed Dec 14 2011 Anton Kirilenko <anton.kirilenko@rosalab.ru> 0.7.0-1.13
++ Revision: 741160
+- Initial package
+- Created package structure for libqb.
+
