@@ -1,2 +1,4 @@
+removed_sources:
+  libqb-0.10.0.tar.gz: 26e45c92fc68e7fc1a3c5aef2c3f6feeeadfbe5d
 sources:
-  "libqb-0.10.0.tar.gz": 26e45c92fc68e7fc1a3c5aef2c3f6feeeadfbe5d
+  libqb-0.14.4.tar.gz: 132ead71eea483b2637cb9000450b05961433d52
