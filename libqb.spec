@@ -1,7 +1,8 @@
+%define major 0
 %define version	0.14.4
 %define release	1
 %define develname %mklibname -d qb
-%define name	%mklibname qb
+%define name	%mklibname qb %major
 
 Name:           %name
 Version:        %version
