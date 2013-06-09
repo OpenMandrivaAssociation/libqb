@@ -1,6 +1,6 @@
-%define major 0
+%define major	0
 %define libname	%mklibname qb %{major}
-%define devname %mklibname -d qb
+%define devname	%mklibname -d qb
 
 Summary:	An IPC library for high performance servers
 Name:		libqb
@@ -9,7 +9,7 @@ Release:	2
 Group:		System/Libraries
 License:	LGPLv2+
 Url:		https://github.com/asalkeld/libqb/wiki
-Source0:	https://fedorahosted.org/releases/q/u/quarterback/libqb-%{version}.tar.gz
+Source0:	https://fedorahosted.org/releases/q/u/quarterback/%{name}-%{version}.tar.gz
 
 BuildRequires:	doxygen
 BuildRequires:	libtool
@@ -20,16 +20,24 @@ BuildRequires:	pkgconfig(check)
 %{name} provides high performance client server reusable features.
 Initially these are IPC and poll.
 
+%package -n %{libname}
+Summary:	An IPC library for high performance servers
+Group:		System/Libraries
+
+%description -n %{libname}
+%{name} provides high performance client server reusable features.
+Initially these are IPC and poll.
+
 %package -n %{devname}
-Group:		Development/C
 Summary:	Development files for libqb
+Group:		Development/C
 Requires:	%{libname} = %{version}-%{release}
 Provides:	%{name}-devel = %{version}-%{release}
 Obsoletes:	%{_lib}qb0 < 0.14.4-2
 
 %description -n %{devname}
 This package contains libraries and header files for
-developing applications that use %{name}
+developing applications that use %{name}.
 
 %prep
 %setup -q
