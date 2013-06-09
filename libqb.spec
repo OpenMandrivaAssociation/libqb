@@ -43,12 +43,11 @@ developing applications that use %{name}
 %makeinstall_std
 rm -rf %{buildroot}/%{_docdir}/*
 
-%files
-%doc COPYING
+%files -n %{libname}
 %{_libdir}/libqb.so.%{major}*
 
 %files -n %{devname}
-%doc README.markdown
+%doc COPYING README.markdown
 %{_sbindir}/qb-blackbox
 %{_includedir}/qb/
 %{_libdir}/libqb.so
