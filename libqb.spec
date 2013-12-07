@@ -5,7 +5,7 @@
 Summary:	An IPC library for high performance servers
 Name:		libqb
 Version:	0.16.0
-Release:	3
+Release:	4
 Group:		System/Libraries
 License:	LGPLv2+
 Url:		https://github.com/asalkeld/libqb/wiki
