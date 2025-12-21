@@ -11,6 +11,11 @@ License:	LGPLv2+
 Url:		https://github.com/asalkeld/libqb/wiki
 Source0:	https://fedorahosted.org/releases/q/u/quarterback/%{name}-%{version}.tar.gz
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	doxygen
 BuildRequires:	libtool
 BuildRequires:	procps
